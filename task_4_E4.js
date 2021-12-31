@@ -1,4 +1,5 @@
 // Задание 4
+(function(){
 let x = +prompt('Введите начало отсчета');
 let y = +prompt('Введите конец отсчета');
   
@@ -12,3 +13,4 @@ function printNumb (){
     clearInterval(id);
   };
 };
+})();
